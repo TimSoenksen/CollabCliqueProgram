@@ -5,8 +5,16 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class utilityFunctions {
+
+    public static int MaxCliqueSize;
+
+
+    public utilityFunctions(int MaxCliqueSize){
+        utilityFunctions.MaxCliqueSize = MaxCliqueSize;
+    }
+
     public static int maxCliqueSizeRecord = 0;
-    public static int[] maxClique;
+    public static int[] maxClique = new int[500];
     public static int[][] E;
 
     //takes an adjacency matrix and returns a clique of a certain size. will return null if no such clique exists

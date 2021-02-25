@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class testUtilFunctions {
     public static void main(String[] args) {
         //initialize a new instance of utilityfunctions
-        utilityFunctions test = new utilityFunctions();
+        utilityFunctions test = new utilityFunctions(3);
         //create an adjacency matrix (i just made this from a text file from another test function
         int[][] adjacencyList = test.convertTestGraphInTXTToAdjacency("testgraph.txt",10);
 
