@@ -9,7 +9,7 @@ public class testUtilFunctions {
 
         //findcliqueofsize will return an arraylist of a clique, will return null if sizeToFind is greater than
         //the size of the max clique of the function
-        ArrayList<Integer> clickOfSize2 = test.findCliqueOfSize(adjacencyList,5);
+        ArrayList<Integer> clickOfSize2 = test.findCliqueOfSize(adjacencyList,2);
 
         if(clickOfSize2 != null) {
             for (int integer : clickOfSize2) {
